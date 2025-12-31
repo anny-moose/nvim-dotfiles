@@ -5,7 +5,8 @@ return {
   opts = {
       ensure_installed = {
           "c",
-          "lua"
+          "lua",
+          "markdown"
       }
   },
 }
