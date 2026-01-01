@@ -14,6 +14,8 @@ vim.opt.smartindent = true
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 
+vim.cmd.colorscheme("afterglow")
+
 -- autoupdate loclist
 vim.api.nvim_create_autocmd("DiagnosticChanged", {
     callback = function()
