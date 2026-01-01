@@ -9,8 +9,8 @@ map('i', '<A-l>', '<Right>', {noremap = true, silent = true})
 
 -- map('i', '<C-w>', '')
 
-map('n', '<leader>n', ':Ex<Enter>')
-map('n', '<ESC>', ':noh<Enter>')
+map('n', '<leader>n', '<cmd>Ex<cr>')
+map('n', '<ESC>', '<cmd>noh<cr>')
 
 map('n', '<leader>e', vim.diagnostic.setloclist)
 
@@ -20,3 +20,11 @@ map("n", "<C-Up>", "<cmd>resize +5<cr>", { desc = "Increase Window Height" })
 map("n", "<C-Down>", "<cmd>resize -5<cr>", { desc = "Decrease Window Height" })
 map("n", "<C-Right>", "<cmd>vertical resize +5<cr>", { desc = "Increase Window Width" })
 map("n", "<C-Left>", "<cmd>vertical resize -5<cr>", { desc = "Decrease Window Width" })
+
+-- tabs
+map("n", "<leader>tn", "<cmd>tabnext<cr>", { desc = "Next tab" })
+map("n", "<leader>tN", "<cmd>+tabmove<cr>", { desc = "Previous tab" })
+map("n", "<leader>tp", "<cmd>tabprevious<cr>", { desc = "Previous tab" })
+map("n", "<leader>tP", "<cmd>-tabmove<cr>", { desc = "Previous tab" })
+
+map("n", "<leader>tc", "<cmd>tabnew<cr>", { desc = "Previous tab" })
