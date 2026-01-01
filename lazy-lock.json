@@ -1,8 +1,0 @@
-{
-  "conform.nvim": { "branch": "master", "commit": "df83eeaab265dacd2eef139a78e502a3f8926618" },
-  "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
-  "nvim-autopairs": { "branch": "master", "commit": "c2a0dd0d931d0fb07665e1fedb1ea688da3b80b4" },
-  "nvim-lspconfig": { "branch": "master", "commit": "41ceb6bba3a40128b7841f5b7f5a9dae7201e823" },
-  "nvim-treesitter": { "branch": "main", "commit": "7efc1b58a8061d29786860006c7257c90a5196dc" },
-  "smear-cursor.nvim": { "branch": "main", "commit": "c85bdbb25db096fbcf616bc4e1357bd61fe2c199" }
-}
