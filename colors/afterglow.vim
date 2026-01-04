@@ -15,11 +15,11 @@ hi Normal guifg=#d0d0d0 guibg=#212121
 
 " Syntax highlighting groups
 hi Comment guifg=#505050
-hi Constant guifg=#e5b567
-hi Identifier guifg=#6c99bb
+" hi Constant guifg=#e5b567
+" hi Identifier guifg=#6c99bb
 hi Statement guifg=#ac4142
-hi PreProc guifg=#9f4e85
-hi Type guifg=#7e8e50
+" hi PreProc guifg=#9f4e85
+" hi Type guifg=#7e8e50
 hi Special guifg=#7dd6cf
 hi Underlined guifg=#6c99bb gui=underline
 hi Error guifg=#ac4142 guibg=#212121
@@ -41,10 +41,10 @@ hi Operator guifg=#d0d0d0
 hi Keyword guifg=#ac4142
 hi Exception guifg=#ac4142
 
-hi Include guifg=#9f4e85
-hi Define guifg=#9f4e85
-hi Macro guifg=#9f4e85
-hi PreCondit guifg=#9f4e85
+"hi Include guifg=#9f4e85
+"hi Define guifg=#9f4e85
+"hi Macro guifg=#9f4e85
+"hi PreCondit guifg=#9f4e85
 
 hi StorageClass guifg=#7e8e50
 hi Structure guifg=#7e8e50
