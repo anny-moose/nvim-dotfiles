@@ -17,7 +17,7 @@ hi Normal guifg=#d0d0d0 guibg=#212121
 hi Comment guifg=#505050
 " hi Constant guifg=#e5b567
 " hi Identifier guifg=#6c99bb
-hi Statement guifg=#ac4142
+"hi Statement guifg=#ac4142
 " hi PreProc guifg=#9f4e85
 " hi Type guifg=#7e8e50
 hi Special guifg=#7dd6cf

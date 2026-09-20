@@ -9,11 +9,5 @@ return {
             timeout_ms = 500,
             lsp_format = "fallback",
         },
-
-        formatters = {
-            ['clang-format'] = {
-                command = "clang-format21"
-            }
-        }
     }
 }
